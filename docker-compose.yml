@@ -1,0 +1,7 @@
+version: '2'
+services:
+  app:
+   image: vnc
+   command: x11vnc -forever -usepw -create
+   ports:
+    - 5900
