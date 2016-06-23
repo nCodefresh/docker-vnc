@@ -3,7 +3,7 @@
 # VERSION               0.1
 # DOCKER-VERSION        0.2
 
-FROM ubuntu:14.04
+FROM ubuntu:latest
 
 # make sure the package repository is up to date
 #RUN echo "deb http://archive.ubuntu.com/ubuntu precise main universe" > /etc/apt/sources.list
